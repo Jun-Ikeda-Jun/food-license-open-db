@@ -1,0 +1,671 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>食品営業許可オープンデータ地図｜全国の食品営業許可名簿オープンデータ 26件の一覧</title>
+<meta name="description" content="全国の自治体が公開する飲食店営業許可名簿のオープンデータを、「撤退（消滅）が読めるか」「同じ住所への再許可が読めるか」の2点で1件ずつ調べた台帳です。 26件を掲載（2026-08-11時点）。">
+<style>
+:root{--bg:#f6f4ef;--panel:#fff;--ink:#20211d;--sub:#6b6f68;--ac:#8a5a2b;--ok:#1a7f4b;--line:#e2ddd2}
+@media(prefers-color-scheme:dark){:root{--bg:#14150f;--panel:#1d1f18;--ink:#e6e3d8;--sub:#9a9d92;--ac:#d9a45f;--ok:#54c98a;--line:#2d3026}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"Hiragino Sans",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+header{background:linear-gradient(135deg,#3b2a17,#7a5228);color:#fff;padding:30px 0 26px}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+h1{margin:0;font-size:22px;letter-spacing:.01em}.tag{opacity:.9;margin-top:8px;font-size:13.5px}
+.stats{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+.stat{background:rgba(255,255,255,.14);border-radius:20px;padding:4px 12px;font-size:12.5px}
+.lead{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0;font-size:13.5px;color:var(--sub)}
+.lead b{color:var(--ink)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+input,button{font:inherit}
+#q{flex:1;min-width:180px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink)}
+.fb{padding:8px 13px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--sub);cursor:pointer}
+.fb.sel{background:var(--ac);color:#fff;border-color:var(--ac)}
+.row{display:flex;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0}
+.g{flex:0 0 34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px}
+.gA{background:#1a7f4b}.gB{background:#b8862c}.gC{background:#8d8f88}
+.b{flex:1;min-width:0}.b h3{margin:0 0 7px;font-size:15.5px}
+.ds{display:block;font-size:13px;font-weight:400;color:var(--sub);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:11.5px;color:var(--sub);border:1px solid var(--line);border-radius:6px;padding:2px 7px;white-space:nowrap}
+.chip.on{color:var(--ok);border-color:currentColor}
+.use{margin-top:8px;font-size:12.5px;display:flex;flex-wrap:wrap;gap:12px}
+.use .ok{color:var(--ok);font-weight:600}.use .no{color:var(--sub)}
+.meta{margin-top:7px;font-size:12px;color:var(--sub)}
+.meta a{color:var(--ac);font-weight:600;text-decoration:none}
+h2{font-size:16px;margin:26px 0 6px}
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+td,th{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+tr:last-child td{border-bottom:0}
+footer{color:var(--sub);font-size:12px;padding:26px 0 50px}
+footer p{margin:6px 0}
+.empty{color:var(--sub);padding:20px 0}
+</style></head><body>
+<header><div class="wrap">
+  <h1>食品営業許可オープンデータ地図</h1>
+  <div class="tag">全国の自治体が公開する飲食店営業許可名簿のオープンデータを、「撤退（消滅）が読めるか」「同じ住所への再許可が読めるか」の2点で1件ずつ調べた台帳です。</div>
+  <div class="stats"><span class="stat">掲載 26件</span><span class="stat">13都道府県</span><span class="stat">A判定 4件 / B判定 10件</span><span class="stat">2026-08-11時点</span></div>
+</div></header>
+<main class="wrap">
+  <div class="lead">
+    <p><b>使いみち。</b>許可名簿を毎月同じ形で保存しておくと、前月に載っていた施設が今月消えていれば撤退、増えていれば開店として読めます。さらに所在地が番地まで載っていて許可年月日もあるデータなら、<b>同じ住所に過去何回営業許可が出たか</b>を数えられます。回数が多い物件は、厨房設備や内装造作が残ったまま次の借り手へ渡ってきた可能性があります。</p>
+    <p>このページは、その集計の元になる公開データが<b>どこに・どのライセンスで・どの項目まで</b>あるかを並べたものです。名簿の中身（施設名や住所）は掲載していません。</p>
+  </div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="自治体名・都道府県で絞り込み" aria-label="絞り込み">
+    <button class="fb sel" data-f="all">すべて</button>
+    <button class="fb" data-f="A">A</button>
+    <button class="fb" data-f="B">B</button>
+    <button class="fb" data-f="C">C</button>
+  </div>
+  <div id="list">
+<article class="row" data-g="A" data-t="沖縄県 沖縄県 新規食品営業許可・届出一覧（月別）">
+  <div class="g gA">A</div>
+  <div class="b">
+    <h3>沖縄県<span class="ds">新規食品営業許可・届出一覧（月別）</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（24列） ｜ <a href="https://data.bodik.jp/dataset/470007_shokuhin_2" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/5cb9163d-0a59-4a20-a583-91b113be7895/resource/7fb51275-bed2-485d-ac48-116d104184a2/download/1_suisyou_syokuhin-3.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="A" data-t="神奈川県 横須賀市 【横須賀市】食品営業許可施設公開情報 （食品営業許可を取得している全施設）">
+  <div class="g gA">A</div>
+  <div class="b">
+    <h3>横須賀市<span class="ds">【横須賀市】食品営業許可施設公開情報 （食品営業許可を取得している全施設）</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（12列） ｜ <a href="https://data.bodik.jp/dataset/142018_00_18_syokuhin_all" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/3a1aaf46-e6ca-41fa-8977-3388f3b7e3ba/resource/99d87c24-fabd-4b5e-9c6e-90843a55eb84/download/syoku06.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="A" data-t="神奈川県 横須賀市 【横須賀市】食品営業許可施設公開情報（食品営業許可を取得した施設（直近３か月））">
+  <div class="g gA">A</div>
+  <div class="b">
+    <h3>横須賀市<span class="ds">【横須賀市】食品営業許可施設公開情報（食品営業許可を取得した施設（直近３か月））</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（12列） ｜ <a href="https://data.bodik.jp/dataset/142018_00_18_syokuhin_monthly" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/d24028ac-0795-48e0-8855-485ab2769a96/resource/6ad4aed4-321a-42c8-aefd-8895509ab52c/download/syokuhin06.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="A" data-t="長崎県 佐世保市 ［佐世保市］食品営業許可施設一覧">
+  <div class="g gA">A</div>
+  <div class="b">
+    <h3>佐世保市<span class="ds">［佐世保市］食品営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（11列） ｜ <a href="https://data.bodik.jp/dataset/422029_syokuhineigyoukyoka" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/571df2fc-f781-4a2c-b9d7-09e1637b15fe/resource/10a8eab0-c024-424f-8527-0f85a36cca83/download/26.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="愛知県 岡崎市 食品等営業許可・届出一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>岡崎市<span class="ds">食品等営業許可・届出一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/232025_food_business_all" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/aabced9d-d86e-422d-8ad0-2781d0f30671/resource/a893c7d6-5c10-4fb4-b9fa-cb48edd81565/download/232025_food_business_all.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="愛媛県 久万高原町 食品等営業許可・届出一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>久万高原町<span class="ds">食品等営業許可・届出一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（24列） ｜ <a href="https://data.bodik.jp/dataset/383864_383864000009" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/88d27dcd-c645-4e36-84c8-e74b481f0cee/resource/6e598555-a1de-458b-a1c1-595aa6e4cbb4/download/383864_food_business_all_2023.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="沖縄県 沖縄県 食品等営業許可・届出全一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>沖縄県<span class="ds">食品等営業許可・届出全一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX/CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 年1回</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（24列） ｜ <a href="https://data.bodik.jp/dataset/470007_syokuhin" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/1491f4e0-4631-45c2-b5d9-ecbce3206a01/resource/32878cd6-3817-41a1-8063-12db90392561/download/1_suisyou_syokuhin-2.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="鹿児島県 鹿児島県 鹿児島県食品営業許可施設一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>鹿児島県<span class="ds">鹿児島県食品営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（16列） ｜ <a href="https://data.bodik.jp/dataset/460001_kgod003" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/1bca2ed4-7d8f-4330-b8e6-a05d27ace017/resource/069de6f8-d2fc-4904-a44d-26b829aad249/download/460001_food_business_new_202501201_20251231.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="静岡県 静岡市 食品衛生関係営業許可台帳">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>静岡市<span class="ds">食品衛生関係営業許可台帳</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY（バージョン不明）</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（10列） ｜ <a href="https://data.bodik.jp/dataset/221007_shokuhin20151023-001" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/86a8d652-beb2-41b7-8da6-f9245e04217d/resource/76e0c6d1-2332-4ca9-afd5-1ef442733eff/download/r7.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="大阪府 東大阪市 食品等営業許可一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>東大阪市<span class="ds">食品等営業許可一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 PDF/CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/272272_15" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/b5eeed4c-cec0-4eef-8513-b4882d6a18ec/resource/4f71cc13-9639-438d-995b-f4b457f5bb89/download/272272_food_business_new_20260201_20260228.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="大分県 大分県 食品営業許可施設一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>大分県<span class="ds">食品営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV/GEOJSON/JSON</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/440001_food_business" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/1b0a322a-6355-4b47-8fe7-478ec1b7d5e9/resource/b8d40e46-9b97-48cd-86a3-3183d78c629a/download/440001_food_business_all.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="大分県 大分県 旅館業営業許可施設一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>大分県<span class="ds">旅館業営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/440001_ryokan_business" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/a7da203c-8c3f-46d6-9e7a-46196d0161d2/resource/01098c01-3271-4424-8563-672df1e358e9/download/440001_ryokan_business_all.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="大分県 大分県 興行場営業許可施設一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>大分県<span class="ds">興行場営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/440001_kougyoujou_business" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/d4311956-73cf-474b-a617-3bb50d1a0f0f/resource/810a5bec-5486-40e4-ac4b-a0868abcdd09/download/440001_kougyoujou_business_all.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="B" data-t="大分県 大分県 公衆浴場営業許可施設一覧">
+  <div class="g gB">B</div>
+  <div class="b">
+    <h3>大分県<span class="ds">公衆浴場営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip on">有効期限 あり</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip on">廃業日 あり</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="ok">○ 同一住所の再許可が読める</span>
+      <span class="ok">○ 廃業日の列あり（1回の取得でも撤退が読める）</span>
+    </div>
+    <div class="meta">CSVの列見出しを確認（34列） ｜ <a href="https://data.bodik.jp/dataset/440001_koushuuyokujou_business" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/c97f49d1-aabf-4c74-9e0c-0be39dd97eac/resource/3ae14ee2-ddc8-405c-a96b-5d07a13a1fac/download/440001_koushuuyokujou_business_all.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="愛知県 岡崎市 食品等営業許可・届出一覧（自治体標準オープンデータセット）">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>岡崎市<span class="ds">食品等営業許可・届出一覧（自治体標準オープンデータセット）</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/232025_food_business_all/resource/a893c7d6-5c10-4fb4-b9fa-cb48edd81565" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="愛知県 名古屋市 【名古屋市】食品営業許可施設一覧">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>名古屋市<span class="ds">【名古屋市】食品営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 CSV/PDF</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 なし</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip">業種 なし</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（5列） ｜ <a href="https://data.bodik.jp/dataset/231002_1304020000_01" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/979f325a-1b27-45d0-8eb5-dd4aeb85b1f5/resource/ba5d460f-921d-407e-9a0d-1c346b4f8f3a/download/r7.7_shinki.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="沖縄県 那覇市 （継続）食品営業許可施設">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>那覇市<span class="ds">（継続）食品営業許可施設</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLS/XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/472018_keizoku_syokuhin" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="沖縄県 那覇市 （新規）食品営業許可施設">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>那覇市<span class="ds">（新規）食品営業許可施設</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLS/XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/shinki_syokuhin" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="熊本県 熊本県 食品営業許可施設、届出施設データ">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>熊本県<span class="ds">食品営業許可施設、届出施設データ</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX/CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 年1回程度</span>
+      <span class="chip on">許可年月日 あり</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip">所在地 町名まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（5列） ｜ <a href="https://data.bodik.jp/dataset/430005_00204" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/5a58e9d4-f3cc-4b21-9ec8-4896f7b42774/resource/fe69c10f-a509-458d-b8e7-b424b5db45bb/download/243_230224__r4.11.30.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="群馬県 前橋市 食品等営業許可・届出一覧">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>前橋市<span class="ds">食品等営業許可・届出一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 HTML/XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/102016_eiseikensa01" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="三重県 三重県 食品営業許可施設">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>三重県<span class="ds">食品営業許可施設</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip on">更新 月次</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/240001_food_business_all" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="滋賀県 大津市 食品営業許可施設一覧">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>大津市<span class="ds">食品営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip">形式 不明</span>
+      <span class="chip on">ライセンス CC BY（バージョン不明）</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="no">— 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/252018_p_9628_1464171302594" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="神奈川県 川崎市 食品営業許可施設に関する情報">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>川崎市<span class="ds">食品営業許可施設に関する情報</span></h3>
+    <div class="chips">
+      <span class="chip">形式 不明</span>
+      <span class="chip">ライセンス 不明</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="no">— 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://www.city.kawasaki.jp/kurashi/category/22-12-8-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="大阪府 大阪府 旅館業法に基づく営業許可施設一覧">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>大阪府<span class="ds">旅館業法に基づく営業許可施設一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/270008_ryokan" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="大分県 大分市 営業届出施設・許可施設">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>大分市<span class="ds">営業届出施設・許可施設</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX/PDF/CSV</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 なし</span>
+      <span class="chip">有効期限 なし</span>
+      <span class="chip on">所在地 番地まで</span>
+      <span class="chip on">業種 あり</span>
+      <span class="chip">廃業日 なし</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">CSVの列見出しを確認（15列） ｜ <a href="https://data.bodik.jp/dataset/442011_licensed_facility" target="_blank" rel="noopener">公開元ページ →</a> ｜ <a href="https://data.bodik.jp/dataset/be87ff3e-fb41-4f46-be45-1609d7550887/resource/4ab92112-6349-4ec1-bff9-f483e93af632/download/r080601alltodoke.csv" target="_blank" rel="noopener">データ本体</a></div>
+  </div>
+</article>
+<article class="row" data-g="C" data-t="長崎県 長崎県 食品営業許可一覧">
+  <div class="g gC">C</div>
+  <div class="b">
+    <h3>長崎県<span class="ds">食品営業許可一覧</span></h3>
+    <div class="chips">
+      <span class="chip on">形式 XLSX</span>
+      <span class="chip on">ライセンス CC BY 4.0</span>
+      <span class="chip">更新 不明</span>
+      <span class="chip">許可年月日 不明</span>
+      <span class="chip">有効期限 不明</span>
+      <span class="chip">所在地 不明</span>
+      <span class="chip">業種 不明</span>
+      <span class="chip">廃業日 不明</span>
+    </div>
+    <div class="use">
+      <span class="ok">○ 前月差分で撤退が読める</span>
+      <span class="no">— 同一住所の再許可が読める</span>
+      
+    </div>
+    <div class="meta">ページ表記のみ ｜ <a href="https://data.bodik.jp/dataset/420000_foodbusinesslicense" target="_blank" rel="noopener">公開元ページ →</a></div>
+  </div>
+</article>
+  </div>
+  <p id="none" class="empty" style="display:none">該当なし。</p>
+
+  <h2>判定の付け方</h2>
+  <table>
+    <tr><th>判定</th><th>条件</th><th>意味</th></tr>
+    <tr><td><b>A</b></td><td>機械可読形式＋オープンライセンス＋所在地が番地まで＋許可年月日あり＋更新頻度が月次以上の表記</td><td>差分で撤退が追え、同一住所の許可履歴も作れる（更新頻度も月次以上の表記）</td></tr>
+    <tr><td><b>B</b></td><td>上記のうち更新頻度の表記が確認できないもの</td><td>差分で撤退が追え、同一住所の許可履歴も作れる（更新頻度は未確認）</td></tr>
+    <tr><td><b>C</b></td><td>それ以外</td><td>そのままでは片方しか取れない／形式・ライセンスの確認が要る</td></tr>
+  </table>
+  <p class="empty" style="font-size:12.5px">判定は、公開元ページの表記と、CSVの先頭行（列見出し）から機械的に付けています。人が中身を精査した結果ではありません。「所在地」の粒度は先頭数行の書式から判定しています。実際の利用前に、必ず公開元ページのライセンスと更新状況をご確認ください。</p>
+</main>
+<footer class="wrap">
+  <p>各データの権利は公開元の自治体にあります。本ページに掲載しているのは、データセットの所在・ライセンス表記・掲載項目の有無といった事実と、公開元へのリンクのみです。</p>
+  <p>名簿に含まれる個々の施設名・所在地は掲載していません。掲載の取り下げのご希望は公開元自治体経由でお知らせください。</p>
+  <p>会員登録・決済・お問い合わせフォームは設置していません（情報の送信は発生しません）。</p>
+</footer>
+<script>
+(function(){
+  var rows=[].slice.call(document.querySelectorAll('.row')), q=document.getElementById('q'), none=document.getElementById('none'), f='all';
+  function apply(){
+    var t=(q.value||'').trim(), n=0;
+    rows.forEach(function(r){
+      var ok=(f==='all'||r.dataset.g===f)&&(!t||r.dataset.t.indexOf(t)>=0);
+      r.style.display=ok?'':'none'; if(ok)n++;
+    });
+    none.style.display=n?'none':'';
+  }
+  q.addEventListener('input',apply);
+  [].forEach.call(document.querySelectorAll('.fb'),function(b){
+    b.addEventListener('click',function(){
+      [].forEach.call(document.querySelectorAll('.fb'),function(x){x.classList.remove('sel')});
+      b.classList.add('sel'); f=b.dataset.f; apply();
+    });
+  });
+})();
+</script>
+
+<script data-goatcounter="https://junikeda.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body></html>
